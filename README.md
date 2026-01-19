@@ -1,6 +1,9 @@
 # RunPod Serverless Background Removal
 
+[![Runpod](https://api.runpod.io/badge/Yannp27/runpod-rembg-worker)](https://console.runpod.io/hub/Yannp27/runpod-rembg-worker)
+
 GPU-accelerated background removal using rembg on RunPod.
+
 
 ## Deployment
 
