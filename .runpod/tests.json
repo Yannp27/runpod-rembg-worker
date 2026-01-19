@@ -1,0 +1,11 @@
+{
+    "tests": [
+        {
+            "name": "test_background_removal",
+            "input": {
+                "image_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg=="
+            },
+            "timeout": 30000
+        }
+    ]
+}

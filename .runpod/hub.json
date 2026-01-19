@@ -1,0 +1,25 @@
+{
+    "title": "Background Removal Worker",
+    "description": "GPU-accelerated background removal using rembg with isnet-anime model. Optimized for anime and illustration characters.",
+    "type": "serverless",
+    "category": "image",
+    "iconUrl": "https://raw.githubusercontent.com/danielgatis/rembg/main/examples/car-1.out.png",
+    "config": {
+        "runsOn": "GPU",
+        "containerDiskInGb": 20,
+        "presets": [
+            {
+                "name": "Default",
+                "default": true,
+                "gpuIds": "AMPERE_48,AMPERE_24,ADA_24",
+                "workerConfig": {
+                    "minWorkers": 0,
+                    "maxWorkers": 3,
+                    "idleTimeout": 5,
+                    "scalerType": "QUEUE_DELAY",
+                    "scalerValue": 4
+                }
+            }
+        ]
+    }
+}
